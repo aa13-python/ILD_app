@@ -10,7 +10,7 @@ import plotly.graph_objects as bg
 # 1. PAGE & THEME CONFIGURATION
 # -----------------------------------------------------------------------------
 st.set_page_config(
-    page_title="ILD Graph-RAG & k-NN Diagnostic Assistant",
+    page_title="ILD Graph-RAG & k-NN Diagnostic Assistant (by Dr.A)",
     page_icon="🫁",
     layout="wide",
     initial_sidebar_state="expanded"
