@@ -227,7 +227,7 @@ engine = get_engine()
 # -----------------------------------------------------------------------------
 st.title("🫁 ILD Graph-RAG & k-NN Diagnostic Assistant by Dr A")
 st.caption("Derived from 2026 ERS/ATS Classification Guidelines (Diagn Interv Radiol 2026; 32(5):643–654)")
-st.caption("Hi Shaimaa and other wonderful people in chest RR")
+st.caption("Hi Dr SF and other wonderful people in chest RR !")
 
 with st.sidebar:
     st.header("⚙️ Configuration")
