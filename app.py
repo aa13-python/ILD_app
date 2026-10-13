@@ -10,7 +10,7 @@ import plotly.graph_objects as bg
 # 1. PAGE & THEME CONFIGURATION
 # -----------------------------------------------------------------------------
 st.set_page_config(
-    page_title="ILD Graph-RAG & k-NN Diagnostic Assistant (by Dr.A)",
+    page_title="ILD Graph-RAG & k-NN Diagnostic Assistant",
     page_icon="🫁",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -225,8 +225,9 @@ engine = get_engine()
 # -----------------------------------------------------------------------------
 # 3. INTERACTIVE DASHBOARD SIDEBAR & CONTROLS
 # -----------------------------------------------------------------------------
-st.title("🫁 ILD Graph-RAG & k-NN Diagnostic Assistant")
+st.title("🫁 ILD Graph-RAG & k-NN Diagnostic Assistant by Dr A")
 st.caption("Derived from 2026 ERS/ATS Classification Guidelines (Diagn Interv Radiol 2026; 32(5):643–654)")
+st.caption("Hi Shaimaa and other wonderful people in chest RR")
 
 with st.sidebar:
     st.header("⚙️ Configuration")
